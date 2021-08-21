@@ -1,8 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { ImageBackground, StyleSheet, Text, View, Image } from 'react-native';
+import {StyleSheet, View} from 'react-native';
 import DogList from './components/DogList';
-import Header from './components/Header';
+import FryList from './components/FryList';
 
 export default function App() {
   return (

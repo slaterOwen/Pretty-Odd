@@ -2,11 +2,16 @@ import React from "react";
 import {View, Text, FlatList, Dimensions, Image, Pressable} from "react-native";
 import styles from "./styles";
 
-const Header = () => {
+const Header = (props) => {
+
+    const type = props.type;
+
     return(
     <View style={styles.container}>
             
             <Image style={styles.logo} source={require("../../assets/otherPics/logoNew.png")}/>
+
+            <Text style={styles.text}>{type}</Text> 
             
             <Pressable
             onPress={() => {

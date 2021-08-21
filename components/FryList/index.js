@@ -1,20 +1,19 @@
 import React from "react";
-import {View, FlatList, Dimensions} from "react-native";
+import {View, Text, FlatList, Dimensions} from "react-native";
 import styles from "./styles";
-import dogs from "./dogs";
+import fries from "./fries";
 import FoodItem from "../FoodItem";
 import Header from "../Header";
 
-const DogList = () => {
+const FryList = () => {
     return(
 
 
         <View>
-        <Header type={"Dogs"}/>
-
+        <Header type={"Fries"}/>
         <View style={styles.container}>
             <FlatList
-                data={dogs}
+                data={fries}
                 renderItem={({item}) => <FoodItem food={item}/>}
                 snapToAlignment={"start"}
                 decelerationRate={"fast"}
@@ -25,4 +24,4 @@ const DogList = () => {
     );
 };
 
-export default DogList;
+export default FryList;

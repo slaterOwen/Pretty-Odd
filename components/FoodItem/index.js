@@ -5,7 +5,7 @@ import AddButton from '../Addbutton';
 
 const FoodItem = (props) => {
 
-  const {name, price, image, desc} = props.dog;
+  const {name, price, image, desc} = props.food;
 
     return(
         <View style={styles.foodContainer}>

@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: 5,
         backgroundColor: "#444444",
         height: 57,
-        alignContent: "center",
+        alignItems: "center",
     },
     logo: {
         width: 100,
@@ -22,6 +22,17 @@ const styles = StyleSheet.create({
         width: 75,
         height: 50,
         resizeMode: "contain",
+    },
+    text: {
+        color: "white",
+        fontSize: 30,
+        justifyContent: "center",
+        alignContent: "center",
+        alignItems: "center",
+        marginRight: 25,
+        fontStyle: "italic",
+        fontWeight: "600"
+
     },
 
 });
