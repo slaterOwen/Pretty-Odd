@@ -2,10 +2,12 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { ImageBackground, StyleSheet, Text, View, Image } from 'react-native';
 import DogList from './components/DogList';
+import Header from './components/Header';
 
 export default function App() {
   return (
     <View style={styles.container}>
+
 
       <DogList/>
 
