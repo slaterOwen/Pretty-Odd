@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, PLa } from "react-native";
 import { Dimensions } from "react-native";
 
 const styles = StyleSheet.create({
@@ -7,17 +7,18 @@ const styles = StyleSheet.create({
         justifyContent: "space-between",
         backgroundColor: "#444444",
         width: "100%",
-        height: 70,
+        height: 60,
         alignItems: "center",
+        paddingHorizontal: 5,
     },
     logo: {
         width: 80,
         height: 40,
         resizeMode: "contain",
-        marginTop: 15,
+        //marginTop: 15,
     },
     menu: {
-        marginTop: 15,
+        //marginTop: 15,
         width: 75,
         height: 50,
         resizeMode: "contain",
@@ -29,7 +30,7 @@ const styles = StyleSheet.create({
         alignContent: "center",
         alignItems: "center",
         marginRight: 5,
-        marginTop: 15,
+        //marginTop: 15,
         fontStyle: "italic",
         fontWeight: "600"
     },

@@ -1,5 +1,5 @@
 import React from "react";
-import {View, FlatList, Dimensions} from "react-native";
+import {View, FlatList, Dimensions, SafeAreaView, Platform} from "react-native";
 import styles from "./styles";
 import dogs from "./dogs";
 import FoodItem from "../FoodItem";
@@ -12,9 +12,7 @@ const DogList = () => {
 
         <View style={styles.outter}>
 
-       
-        
-       
+        <StatusBar translucent={true} />
 
         <View style={styles.container}>
             <FlatList
@@ -26,7 +24,8 @@ const DogList = () => {
             />
         </View>
 
-        <StatusBar style="auto" />
+        
+
         </View>
     );
 };

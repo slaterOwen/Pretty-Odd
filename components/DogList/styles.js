@@ -10,6 +10,9 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
+    iph: {
+        flex: 1,
+    },
 
 });
 

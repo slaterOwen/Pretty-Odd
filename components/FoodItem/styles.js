@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     },
     buttonContainer: {
       position: "absolute",
-      bottom: 100,
+      bottom: "15%",
       width: "100%",
     },
   });
