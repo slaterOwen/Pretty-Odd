@@ -3,16 +3,11 @@ import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import DogList from './components/DogList';
 import FryList from './components/FryList';
+import Navigator from './routes/drawer';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-
-
-      <DogList/>
-
-      <StatusBar style="auto" />
-    </View>
+      <Navigator />
   );
 }
 

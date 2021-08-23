@@ -15,7 +15,7 @@ const Header = (props) => {
             
             <Pressable
             onPress={() => {
-                console.warn("Menu was pressed");
+                props.navigation.openDrawer();
             }}>
 
                 <Image style={styles.menu} source={require("../../assets/otherPics/newMenu.png")}/>

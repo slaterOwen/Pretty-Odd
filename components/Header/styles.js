@@ -1,24 +1,23 @@
 import { StyleSheet } from "react-native";
+import { Dimensions } from "react-native";
 
 const styles = StyleSheet.create({
     container: {
-        position: "absolute",
-        top: 0,
-        zIndex: 100,
         flexDirection: "row",
         justifyContent: "space-between",
-        width: "100%",
-        paddingHorizontal: 5,
         backgroundColor: "#444444",
-        height: 57,
+        width: "100%",
+        height: 70,
         alignItems: "center",
     },
     logo: {
-        width: 100,
-        height: 50,
+        width: 80,
+        height: 40,
         resizeMode: "contain",
+        marginTop: 15,
     },
     menu: {
+        marginTop: 15,
         width: 75,
         height: 50,
         resizeMode: "contain",
@@ -29,10 +28,10 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignContent: "center",
         alignItems: "center",
-        marginRight: 25,
+        marginRight: 5,
+        marginTop: 15,
         fontStyle: "italic",
         fontWeight: "600"
-
     },
 
 });

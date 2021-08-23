@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
       backgroundColor: "#333333",
     },
     titles: {
-      marginTop: "20%",
+      marginTop: "5%",
       width: "100%",
       alignItems: "center",
     },
@@ -26,8 +26,8 @@ const styles = StyleSheet.create({
       height: 250,
       //resizeMode: "cover",
       position: "absolute",
-      marginTop: "50%",
-      marginLeft: 70,
+      marginTop: "40%",
+      marginLeft: "15%",
       borderRadius: 125,
     },
     description: {
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     },
     buttonContainer: {
       position: "absolute",
-      bottom: 40,
+      bottom: 100,
       width: "100%",
     },
   });

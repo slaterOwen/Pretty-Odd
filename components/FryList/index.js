@@ -4,13 +4,15 @@ import styles from "./styles";
 import fries from "./fries";
 import FoodItem from "../FoodItem";
 import Header from "../Header";
+import { StatusBar } from 'expo-status-bar';
+
 
 const FryList = () => {
     return(
 
+        <View style={styles.outter}>
 
-        <View>
-        <Header type={"Fries"}/>
+        
         <View style={styles.container}>
             <FlatList
                 data={fries}
@@ -20,6 +22,7 @@ const FryList = () => {
                 snapToInterval={Dimensions.get("screen").height}
             />
         </View>
+
         </View>
     );
 };
