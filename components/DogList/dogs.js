@@ -10,7 +10,7 @@ export default [{
     desc: "Deep fried dog on a hawaiin roll with pork belly, island salsa, green onions, and thai mayo",
 }, {
     name: "Sonoran",
-    price: "$9.00",
+    price: "$9.50",
     image: require("../../assets/dogPics/sonoran.png"),
     desc: "Bacon wrapped dog with tomato, avocado, onions, and jalapenos, topped with mustard and mayo",
 }];
