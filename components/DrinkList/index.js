@@ -1,21 +1,21 @@
 import React from "react";
 import {View, FlatList, Dimensions} from "react-native";
 import styles from "./styles";
-import dogs from "./dogs";
+import drinks from "./drinks";
 import FoodItem from "../FoodItem";
 import { StatusBar } from 'expo-status-bar';
 
 
-const DogList = () => {
+const DrinkList = () => {
     return(
 
         <View style={styles.outter}>
 
-        <StatusBar hidden />
+        <StatusBar translucent={true} />
 
         <View style={styles.container}>
             <FlatList
-                data={dogs}
+                data={drinks}
                 renderItem={({item}) => <FoodItem food={item}/>}
                 snapToAlignment={"start"}
                 decelerationRate={"fast"}
@@ -29,4 +29,4 @@ const DogList = () => {
     );
 };
 
-export default DogList;
+export default DrinkList;

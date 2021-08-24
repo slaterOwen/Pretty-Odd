@@ -8,6 +8,7 @@ import React from "react";
 import DogStack from "./DogStack";
 import FryStack from "./FryStack";
 import ExoticStack from "./ExoticStack";
+import DrinkStack from "./DrinkStack";
 
 const CustomDrawerComponent= (props) => (
     <SafeAreaView style={{flex: 1}}>
@@ -57,6 +58,16 @@ const RootDrawerNavigator = createDrawerNavigator({
             drawerIcon: (
                 <Image 
                     source={require("../assets/otherPics/elkIcon.png")}
+                    style={{width: 50, height: 40, marginLeft: 5,}}/>
+            ),
+        }
+    },
+    Drinks: {
+        screen: DrinkStack,
+        navigationOptions: {
+            drawerIcon: (
+                <Image 
+                    source={require("../assets/otherPics/cupIcon.png")}
                     style={{width: 50, height: 40, marginLeft: 5,}}/>
             ),
         }

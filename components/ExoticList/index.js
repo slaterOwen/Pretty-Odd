@@ -3,7 +3,6 @@ import {View, FlatList, Dimensions, SafeAreaView, Platform} from "react-native";
 import styles from "./styles";
 import exotics from "./exotics";
 import FoodItem from "../FoodItem";
-import Header from "../Header";
 import { StatusBar } from 'expo-status-bar';
 
 
