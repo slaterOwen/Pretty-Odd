@@ -28,6 +28,15 @@ const styles = StyleSheet.create({
         fontStyle: "italic",
         fontWeight: "600"
     },
+    inputField: {
+        borderWidth: 3, 
+        borderColor: "white", 
+        borderRadius: 10, 
+        width: "100%", 
+        height: 45,
+        paddingLeft: 15, 
+        color: "white",
+    }
 });
 
 export default styles;
