@@ -1,5 +1,4 @@
 import { Dimensions, StyleSheet } from "react-native";
-import styled from "styled-components";
 
 const styles = StyleSheet.create({
     outterContainer: {
@@ -56,7 +55,7 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
     },
     linkText: {
-        color: "#92DFF3",
+        color: "white",
         fontSize: 20,
         fontWeight: "bold",
         fontStyle: "italic",
